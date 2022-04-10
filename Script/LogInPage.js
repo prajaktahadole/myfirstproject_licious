@@ -1,5 +1,7 @@
 function openForm() {
     document.getElementById("myForm").style.display = "block";
+
+    
   }
 
   function openOtp() {
@@ -10,9 +12,8 @@ function openForm() {
   }
 
   function closeForm() {
-    
     document.getElementById("myForm").style.display = "none";
-    alert("Succesfully Log In to your Licious Account");
+    
   }
   
 
